@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(62, 62, 62);
+}
+
+.header {
+  margin: 0 230px;
+}
+
+.header__text-box {
+  width: 50%;
+}
+
+.header__profile {
+  width: 50%;
+  padding-left: 150px;
+}
+
+.header__text-box__heading {
+  font-family: "Yeseva One", cursive;
+  font-weight: normal;
+  font-size: 50px;
+  color: rgb(64, 64, 64);
+  padding: 5px;
+  position: relative;
+}
+
+.header__text-box__heading__border {
+  display: inline-block;
+  position: absolute;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(137, 98, 208, 1),
+    rgba(49, 127, 252, 1)
+  );
+  width: 4px;
+  height: 126px;
+  left: -16px;
+  top: 23px;
+  border-radius: 5px;
+}
+
+.header__text-box__heading__main {
+  color: rgb(64, 64, 64);
+}
+.header__text-box__heading--sky {
+  color: #5ab8eb;
+}
+
+.header__text-box__description {
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(62, 62, 62);
+  text-align: left;
+}
+.header__text-box__description p {
+  margin: 20px 0 30px 0;
+  line-height: 1.6;
+  font-weight: 400;
+  padding-right: 125px;
+}
+
+.btn {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to right,
+    rgba(85, 127, 233, 0.8),
+    rgb(136, 96, 208, 0.8)
+  );
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header__profile img {
+  height: 600px;
+}
+
+.my-mission {
+  margin: 100px 120px;
+}
+
+.my-mission__card {
+  width: 360px;
+  height: 390px;
+  border-radius: 26px;
+}
+.my-mission__card__content {
+  padding: 40px 20px 0 30px;
+}
+.my-mission img {
+  height: 145px;
+}
+
+.my-mission__card__heading {
+  font-size: 24px;
+  margin: 20px 0;
+}
+.my-mission__content p {
+  text-align: left;
+  color: rgb(66, 66, 66);
+  font-size: 16px;
+}
+
+/* about me section */
+.about-me {
+  margin: 80px 215px;
+}
+
+.about-me__photo-box {
+  width: 40%;
+}
+
+.about-me__text-box {
+  width: 80%;
+  text-align: left;
+  padding-right: 432px;
+}
+
+.about-me__photo-box img {
+  width: 400px;
+  height: 400px;
+}
+
+.about-me__text-box h3 {
+  font-weight: bold;
+  font-size: 36px;
+  color: rgb(64, 64, 64);
+}
+
+.about-me__text-box p {
+  margin: 30px 0;
+  line-height: 1.8;
+}
+
+/* my service section  */
+.my-service {
+  margin: 80px 210px;
+}
+
+/* latest project */
+
+.latest-project {
+  height: 850px;
+  background-color: rgb(248, 249, 252);
+  padding: 150px 75px;
+}
+
+.latest__card {
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 350px;
+  border-radius: 20px;
+
+  box-shadow: 0px 1px 31px 3px rgba(0, 0, 0, 0.116);
+}
+
+.latest__card img {
+  height: 200px;
+  margin: 15px 0 0 15px;
+}
+.latest-project__card__content {
+  margin: 15px 15px;
+}
+.latest-project__card__heading {
+  font-size: 18px;
+  color: #363958;
+  margin-bottom: 10px;
+}
+.latest-project__card__content p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.footer {
+  height: 200px;
+  background-color: rgb(11, 13, 23);
+}
+
+.footer__text {
+  text-align: center;
+  line-height: 2.5;
+}
+.footer__text h3 {
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  padding-top: 30px;
+}
+.footer__text p {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  color: rgb(217, 219, 225);
+}
+
+/* utility clases */
+.heading--primary {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(64, 64, 64);
+  margin-bottom: 100px;
+}
+.heading--purple {
+  color: rgb(136, 96, 208);
+}
+.heading--blue {
+  color: rgb(49, 128, 252);
+}
+
+.d--flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card--green {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.card--red {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.card--yellow {
+  background-color: rgba(255, 244, 214, 0.555);
+}
+
+.p--style {
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(62, 62, 62);
+  text-align: left;
+}
+#scrollar{
+  margin-top: 30px;
+}
